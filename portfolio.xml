@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <title>My First Project</title>
+  <description>A brief description of the project.</description>
+  <technologies>
+    <technology>HTML</technology>
+    <technology>CSS</technology>
+    <technology>JavaScript</technology>
+  </technologies>
+</project>

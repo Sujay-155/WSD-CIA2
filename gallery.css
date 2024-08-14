@@ -1,0 +1,56 @@
+.container{
+  border:4px solid skyblue;
+  margin:50px;
+  padding:20px;
+  display:grid;
+  grid-template-columns: repeat(auto-fit,minmax(100px,2fr));
+  grid-auto-rows:75px ;
+  grid-gap:4px;
+  grid-auto-flow: dense;
+}
+.hor{
+  grid-column: span 2;
+}
+.ver{
+  grid-row: span 3;
+}
+.big{
+  grid-column: span 3;
+  grid-row: span 3;
+
+
+}
+
+body, html {
+  height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("sarah-dorweiler-QeVmJxZOv3k-unsplash.jpg");
+
+/* Set a specific height */
+height: 50%;
+
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+/* You can customize the modal appearance here */
+.modal {
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
+}
